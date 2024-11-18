@@ -1,61 +1,70 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/42FJoDAP)
-# PC 2 - Implementación en Código - SparkyRoll
+# Getting Started with Create React App
 
-SparkyRoll es una innovadora plataforma de streaming diseñada especialmente para los amantes del anime, que busca proporcionar una experiencia única y personalizada al visualizar sus series y películas favoritas. Con el objetivo de mejorar la interacción del usuario y facilitar la gestión de su contenido, SparkyRoll busca un desarrollador Frontend talentoso para crear una interfaz de usuario intuitiva utilizando React.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-La plataforma debe permitir a los usuarios realizar las siguientes acciones:
+## Available Scripts
 
-- **Crear un usuario y autenticarse**: Los usuarios deben poder registrarse con un correo electrónico, contraseña, etc., así como iniciar sesión en su cuenta existente.
-- **Administrar la lista de favoritos**: Los usuarios deben tener la opción de agregar animes a su lista de favoritos y removerlos cuando lo deseen.
-- **Visualización de animes**: La plataforma debe mostrar en pantalla una lista fija de animes disponibles para que los usuarios puedan verlos.
-- **Gestión del progreso**: Los usuarios deben poder marcar un anime como “viendo” o “visto” a su historial de visualización.
+In the project directory, you can run:
 
-Las vistas que deben implementarse son:
+### `npm start`
 
-- **Página de Registro**: `/register`
-- **Página de Login**: `/login`
-- **Página de Animes**: `/animes` (que mostrará la lista de 20 animes)
-- **Página de Favoritos**: `/favorites` (para gestionar la lista de favoritos)
-- **Página de Historial**: `/history` (para ver y manejar el historial de animes visualizados)
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Endpoints de la API REST
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### Autenticación y Registro (2 ptos.)
+### `npm test`
 
-- **(POST) Login**: `/api/auth/login`
-- **(POST) Registro**: `/api/auth/register`
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Gestión de Favoritos (4,5 ptos.)
+### `npm run build`
 
-- **(POST) Agregar a Favoritos**: `/api/user/favorites`
-- **(DELETE) Remover de Favoritos**: `/api/user/favorites`
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-### Visualización y Progreso (4,5 ptos.)
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-- **(GET) Obtener Animes**: `/api/anime/list`
-- **(POST) Añadir a Historial**: `/api/user/history`
-- **(DELETE) Remover de Historial**: `/api/user/history`
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Diseño con Tailwind (1 pto.)
+### `npm run eject`
 
-Puedes revisar los DTO que usa cada endpoint en la documentación de la API.
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-## Conexión a la API
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-- Para conectarte a la API, tienes que usar la siguiente dirección: <http://3.90.3.179:8000/api>.
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-- Puedes ver la documentación de la API en <http://3.90.3.179:8000/docs#/>.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Documentación permitida
+## Learn More
 
-- [**Axios**](https://axios-http.com/docs/intro)
-- [**React**](https://react.dev/reference/react)
-- [**React Router**](https://reactrouter.com/web/guides/quick-start)
-- [**Tailwind CSS**](https://tailwindcss.com/docs)
-- [**TypeScript**](https://www.typescriptlang.org/docs/)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-Las librerías de componentes estan permitidas, acontinuación se listan algunas, sin embargo si deseas usar alguna que no esté listada avisa a tu profesor para comprobar cual es la pagina oficial de esta librería y así no considerarlo como plagio.
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-- [**Material UI**](https://mui.com/material-ui/getting-started/)
-- [**Ant Design**](https://ant.design/)
-- [**React Bootstrap**](https://react-bootstrap.netlify.app/docs/components/accordion)
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
